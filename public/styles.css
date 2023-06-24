@@ -1,0 +1,64 @@
+html{
+background-image: url(peakpx.jpg);
+text-align: center;
+letter-spacing: 2px;
+}
+
+.thought {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    background-color:  #929e92;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 12px;
+    color: white;
+    border-radius: 13px;
+    background-color: rgb(75, 73, 67);
+}
+
+.listData{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 14px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: teal;
+    color: aliceblue;
+}
+
+.form{
+  margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 20%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn1 {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 13px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+

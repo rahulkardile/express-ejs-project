@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-Landing-page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="thought"><h2>The time is always right to do what is right. </h2></div>
+        <h2 class="title">
+            <%= listTitle %>
+        </h2>
+    </div>
+    <div class="listData">
+        <% listItems.forEach(function(item){ %>
+            <p>
+                <%= item %>
+            </p>
+            <% }) %>
+    </div>
+    <div >
+        <form class="form" action="/" method="post">
+            <input class="in" type="text" name="newInput" placeholder="Enter text">
+            <button class="btn1" type="submit"><b>+</b></button>
+        </form>
+    </div>
+</body>
+
+</html>
